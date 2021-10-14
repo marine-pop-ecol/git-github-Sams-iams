@@ -1,0 +1,26 @@
+---
+title: "Assignment_1"
+author: "Sammie Foley"
+date: "14/10/2021"
+output: pdf_document
+---
+#2
+Sammie Foley 
+**UBC**
+*yellow*
+
+#3
+```{r}
+x = c(1,2,3)
+y = c(3,4,5)
+
+data <- data.frame(x,y)
+
+```
+```{r}
+library(tidyverse)
+library(here)
+write.csv(data, here("./data/student-data.csv"))
+
+```
+
